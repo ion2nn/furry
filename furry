@@ -1,0 +1,6 @@
+local args = {
+    [1] = "\208\159\208\190\208\187\209\131\209\135\208\176\208\181\208\188 UGC",
+    [2] = "Reward2"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("ReplicatedStorage_Source"):WaitForChild("Packages"):WaitForChild("Knit"):WaitForChild("Services"):WaitForChild("HUDService"):WaitForChild("RF"):WaitForChild("GetUGC"):InvokeServer(unpack(args))
